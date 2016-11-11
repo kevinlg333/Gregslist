@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+
+.top-nav {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #c8cbd1;
+	text-align: right;
+	border-bottom: 1px grey solid;
+	padding: 5px;
+}	
+
+.logo {
+	margin: 10px 0px;
+	font-weight: lighter;
+	float: left;
+}
+
+nav ul {
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.nav-link {
+	color: purple;
+	text-decoration: none;
+}
+
+.wrapper {
+	margin: 100px auto 0 auto;
+	width: 960px;
+	padding: 0px 60px;
+}
+
+.search-form label {
+	display: block;
+}
+.magnifying-glass {
+	width: auto;
+	height: 25px;
+}
+
+.search-form #Search {
+	width: 400px;
+	height: 30px;
+}
+
+
+}
+nav.pages {
+	display: block;
+
+
+}
+
+a.posting-title {
+	text-decoration: none;
+	font-weight: 600;
+	color: blue;
+}
+
+li.posting {
+	margin-left: 66px;
+	margin-bottom: 10px;
+}
+.postings {
+	list-style: none;
+}
+
+a.page-button ,span.page-display, a.pages-button {
+	border: 1px gray solid;
+}
+
+li span {
+	color: #b1b5bc;
+}
